@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+}
+#container{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+#pic img{
+    width: 350px;
+    height: 430px;
+    filter: drop-shadow(0px 1px 3px #666666);
+}
+#inf{
+    cursor: default;
+    padding: 10px 0px;
+    font-size: 50px;
+    font-family: 'Concert One', cursive;
+    color: #90d7f7;
+    text-shadow: 1px 2px 2px black;
+}
+#contact{
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Maven Pro', sans-serif;
+}
+#social-media{
+    margin: 5px 0px;
+}
+#social-media a{
+    padding: 0px 1.5px;
+}
+#contact span{
+    cursor: default;
+    color: darkgray;
+}
+@media only screen and (max-width: 320px) {
+    #pic img{
+        width: 230px;
+        height: 300px;
+        filter: drop-shadow(0px 1px 3px #666666);
+    }
+    #inf{
+        font-size: 30px;
+    }
+    #contact{
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 321px) {
+    #pic img{
+        width: 280px;
+        height: 350px;
+        filter: drop-shadow(0px 1px 3px #666666);
+    }
+    #inf{
+        font-size: 35px;
+    }
+    #contact{
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width: 400px) {
+    #pic img{
+        width: 310px;
+        height: 390px;
+        filter: drop-shadow(0px 1px 3px #666666);
+    }
+    #inf{
+        font-size: 40px;
+    }
+    #contact{
+        font-size: 17px;
+    }
+} 
+@media only screen and (min-width: 992px) {
+    #pic img{
+        width: 350px;
+        height: 430px;
+        filter: drop-shadow(0px 1px 3px #666666);
+    }
+    #inf{
+        font-size: 50px;
+    }
+    #contact{
+        font-size: 17px;
+    }
+} 
